@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Overpass", sans-serif;
+    margin: 0;
+    background-color: #0b132b;
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 100px; */
+}
+
+p, h3{
+    margin: 0;
+}
+
+.portnavbar{
+    position: fixed;
+    left: 50%;
+    bottom: 3px;
+    transform: translateX(-50%);
+}
+
+.portnavsec{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    background-color: #1d3557;
+    padding: 12px 50px;
+    border-radius: 8px;
+}
+
+.portnavsec span{
+    color: #a8dadc;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 4px;
+}
+
+.portnavsec span:hover{
+    margin-top: -5px;
+}
+
+.portmainsection{
+    padding: 0px 120px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.portmaintopsec{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.portnamesec p:first-child{
+    color: #a8dadc;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.portnamesec p:last-child{
+    color: #FFFFFF;
+    font-size: 82px;
+    font-weight: 800;
+}
+
+.topdesctext{
+    color: #8892b0;
+    max-width: 550px;
+}
+
+.portaboutsec,
+.portexpmainsection,
+.portprojectmainsection{
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.portcontactmainsection{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.portabouttitletext{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.portabouttitletext p{
+    color: #a8dadc;
+    font-size: 28px;
+    font-weight: 800;
+    text-wrap: nowrap;
+}
+
+.titleline{
+    width: 30%;
+    height: 1px;
+    background-color: #1d3557;
+}
+
+.portaboutmaintex{
+    color: #8892b0;
+}
+
+
+.gittitlemain{
+    color: #a8dadc;
+    font-size: 28px;
+    font-weight: 800;
+    text-wrap: nowrap;
+}
+
+.gittitlesec{
+    color: #8892b0;
+    font-size: 16px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.emailbtn{
+    text-decoration: none;
+    color: #a8dadc;
+    border: 1px solid #a8dadc;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.emailbtn:hover{
+    box-shadow: 4px  4px 0px #a8dadc;
+}
+
+.sociallinks{
+    margin-top: 60px;
+    display: flex;
+    gap: 50px;
+}
+
+.projectmainsec{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.porjectcard{
+    background-color: #1d3557;
+    padding: 20px;
+    border-radius: 4px;
+    min-width: 240px;
+    max-width: 320px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.3s ease;
+}
+
+.porjectcard:hover{
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.projecttitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projecttitle p{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+}
+
+.porjectcard:hover .projecttitle p{
+    color: #a8dadc;
+}
+
+.projectdesc{
+    color: #8892b0;
+    font-size: 14px;
+}
+
+.projectbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 30px;
+}
+
+.projecttech{
+    display: flex;
+    gap: 10px;
+    color: #8892b0;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.portexpmainsec{
+    color: #8892b0;
+}
+
+.portexpmainsec a{
+    color: #a8dadc;
+    text-decoration: none;
+}
+
+.sociallinks a{
+    transition: 0.3s ease;
+}
+
+.sociallinks a:hover{
+    margin-top: -5px;
+}
+
+.githublink{
+    display: flex;
+}
+
+.githublink img{
+    transition: 0.3s ease;
+}
+
+.githublink img:hover{
+    filter: invert(1);
+}
