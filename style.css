@@ -26,7 +26,9 @@ p, h3{
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
-    background-color: #1d3557;
+    background-color: #1d35577b;
+    backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
     padding: 12px 50px;
     border-radius: 8px;
 }
@@ -57,18 +59,25 @@ p, h3{
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+    width: fit-content;
 }
 
 .portnamesec p:first-child{
     color: #a8dadc;
     font-size: 28px;
     font-weight: 800;
+    display: flex;
+    width: fit-content;
+    cursor: default;
 }
 
-.portnamesec p:last-child{
+.portnamesec .mynamemain{
     color: #FFFFFF;
     font-size: 82px;
     font-weight: 800;
+    display: flex;
+    width: fit-content;
+    cursor: default;
 }
 
 .topdesctext{
@@ -168,7 +177,8 @@ p, h3{
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
+    justify-content: space-between;
     transition: 0.3s ease;
 }
 
@@ -204,7 +214,7 @@ p, h3{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .projecttech{
@@ -242,4 +252,115 @@ p, h3{
 
 .githublink img:hover{
     filter: invert(1);
+}
+
+.cursor{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* background: #a8dadc; */
+    transition: 0.1s ease;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+
+}
+
+.portnamesec:hover  .cursor{
+    background: #a8dadc;
+    transform: scale(8);
+}
+
+.moreproject{
+    display: flex;
+    justify-content: end;
+}
+
+.moreproject2{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 5px 20px;
+    color: #a8dadc;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.vmarrow{
+    transition: 0.3s ease;
+}
+
+.moreproject2:hover .vmarrow{
+    margin-top: -3px;
+    margin-bottom: 3px;
+    transform: scale(1.1);
+}
+
+@media(max-width: 900px){
+    .portnamesec p:first-child{
+        font-size: 24px;
+    }
+
+    .portnamesec .mynamemain{
+        font-size: 68px;
+    }
+    
+    .topdesctext{
+        font-size: 14px;
+    }
+
+    .portaboutsec, .portexpmainsection, .portprojectmainsection{
+        padding: 60px 0px;
+    }
+}
+
+@media(max-width: 700px){
+    .portnamesec .mynamemain{
+        font-size: 52px;
+    }
+    
+    .portmainsection{
+        padding: 0 80px;
+    }
+}
+
+@media(max-width: 510px){
+    .portmainsection{
+        padding: 0px 30px;
+    }
+
+    .portnamesec p:first-child{
+        font-size: 18px;
+    }
+
+    .portnamesec .mynamemain{
+        font-size: 38px;
+    }
+
+    .portaboutmaintex,
+    .portexpmainsec,
+    .gittitlesec{
+        font-size: 14px;
+    }
+    
+    .portnavsec{
+        gap: 5px;
+        padding: 12px 10px;
+        font-size: 12px;
+    }
+
+    .sociallinks{
+        gap: 30px;
+    }
+
+    .sociallinks a svg{
+        height: 22px;
+        width: 22px;
+    }
+
+    #Home{
+        display: none;
+    }
 }

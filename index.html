@@ -23,7 +23,8 @@
         <div class="portmaintopsec" id="homeSection">
             <div class="portnamesec">
                 <p>Hey, my name is</p>
-                <p>Kshantu Syon</p>
+                <p class="mynamemain">Kshantu Syon</p>
+                <div class="cursor"></div>
             </div>
             <p class="topdesctext">A front-end developer crafting responsive, user-friendly interfaces. At 72Dragons, I focus on building scalable, user-centered digital products—sometimes designing them too.</p>
         </div>
@@ -54,7 +55,7 @@
                     <h3>
                         <span>Front end developer</span>
                         <span class="company">
-                            <a href="" target="_blank">@ 72dragons</a>
+                            <a href="https://72dragons.com/" target="_blank">@ 72dragons</a>
                         </span>
                     </h3>
                     <p class="range">Sep 2022 - Present</p>
@@ -88,11 +89,13 @@
 
             <div class="projectmainsec">
                 <div class="porjectcard" data-link="https://github-finder-cyan-eta.vercel.app/">
-                    <span class="projecttitle">
-                        <p>GitHub Finder</p>
-                        <span><img src="arrow-up-right-svgrepo-com.svg" alt=""></span>
+                    <span>
+                        <span class="projecttitle">
+                            <p>GitHub Finder</p>
+                            <span><img src="arrow-up-right-svgrepo-com.svg" alt=""></span>
+                        </span>
+                        <p class="projectdesc">GitHub Finder lets you search usernames and view profiles, repos, stars, forks, and more—quickly connecting you with developers.</p>
                     </span>
-                    <p class="projectdesc">GitHub Finder lets you search usernames and view profiles, repos, stars, forks, and more—quickly connecting you with developers.</p>
                     <span class="projectbottom">
                         <span class="projecttech">
                             <p>Html</p>
@@ -108,11 +111,13 @@
 
 
                 <div class="porjectcard" data-link="https://generate-password-lovat.vercel.app/">
-                    <span class="projecttitle">
-                        <p>Customizable Password Generator</p>
-                        <span><img src="arrow-up-right-svgrepo-com.svg" alt=""></span>
+                    <span>
+                        <span class="projecttitle">
+                            <p>Customizable Password Generator</p>
+                            <span><img src="arrow-up-right-svgrepo-com.svg" alt=""></span>
+                        </span>
+                        <p class="projectdesc">The Customizable Password Generator creates secure, user-defined passwords with chosen length, symbols, digits, and letter types for better security.</p>
                     </span>
-                    <p class="projectdesc">The Customizable Password Generator creates secure, user-defined passwords with chosen length, symbols, digits, and letter types for better security.</p>
                     <span class="projectbottom">
                         <span class="projecttech">
                             <p>Html</p>
@@ -165,6 +170,13 @@
                     </span>
                 </div> -->
             </div>
+
+            <div class="moreproject">
+                <span class="moreproject2">
+                    <p>view more</p>
+                    <img class="vmarrow" src="arrow-up-right-svgrepo-com.svg" alt="">
+                </span>
+            </div>
         </div>
 
 
@@ -207,7 +219,6 @@
         </div>
     </div>
 
-    
 
     <script>
         document.getElementById("Home").onclick = () => {
@@ -245,6 +256,14 @@
                 }
             });
         });
+
+
+
+        const cursor = document.querySelector(".cursor");
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.pageX + "px";
+            cursor.style.top = e.pageY + "px";
+        })
 
     </script>
 
