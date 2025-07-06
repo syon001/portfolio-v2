@@ -367,4 +367,8 @@ p, h3{
     .portmaintopsec{
         height: 80vh;
     }
+
+    .portexpmainsec ul{
+        padding-inline-start: 15px;
+    }
 }
