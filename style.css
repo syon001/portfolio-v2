@@ -6,6 +6,8 @@ body{
     background-color: #0b132b;
     display: flex;
     justify-content: center;
+    cursor: default;
+    user-select: none;
     /* padding-bottom: 100px; */
 }
 
@@ -314,6 +316,14 @@ p, h3{
     .portaboutsec, .portexpmainsection, .portprojectmainsection{
         padding: 60px 0px;
     }
+
+
+    .allprojecttablesection table thead td:nth-child(2),
+    .allprojecttablesection table tbody td:nth-child(2),
+    .allprojecttablesection table thead td:nth-child(3),
+    .allprojecttablesection table tbody td:nth-child(3){
+        display: none;
+    }
 }
 
 @media(max-width: 700px){
@@ -326,7 +336,7 @@ p, h3{
     }
 }
 
-@media(max-width: 510px){
+@media(max-width: 530px){
     .portmainsection{
         padding: 0px 30px;
     }
@@ -370,5 +380,127 @@ p, h3{
 
     .portexpmainsec ul{
         padding-inline-start: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* all project page */
+
+.allprojectmainpage{
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 100%;
+}
+
+.allprojectbackbtn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #a8dadc;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.allprojectbackbtn span{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.allprojecttitletext{
+    color: #a8dadc;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.allprojecttablesection table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.allprojecttablesection table thead{
+    color: #a8dadc;
+    font-weight: 700;
+}
+
+.allprojecttablesection table tbody{
+    color: #8892b0;
+    text-transform: capitalize;
+}
+
+.allprojecttablesection table tbody tr{
+    border-bottom: 1px solid #a8dadc6c;
+    vertical-align: top;
+}
+
+.allprojecttablesection table tbody td{
+    padding: 10px 10px 10px 0;
+}
+
+.allprojecttablesection table tbody td:first-child{
+    font-weight: 800;
+    max-width: 200px;
+}
+
+.projectredirectlink{
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    cursor: pointer;
+    width: fit-content;
+    transition: 0.3s ease;
+}
+
+.projectredirectlink:hover{
+    color: #a8dadc;
+}
+
+.projectredirectlink img{
+    transition: 0.3s ease;
+}
+
+.projectredirectlink:hover img{
+    margin-top: -3px;
+    margin-bottom: 3px;
+}
+
+.projectbuiltwithtabs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.projectbuiltwithtabs span{
+    padding: 3px 16px;
+    background-color: #a8dadc4a;
+    color: #a8dadc;
+    font-weight: 600;
+    border-radius: 20px;
+    text-wrap: nowrap;
+}
+
+@media (max-width: 530px){
+    
+
+    .allprojectmainpage{
+        padding: 30px;
     }
 }
