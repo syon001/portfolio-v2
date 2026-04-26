@@ -35,6 +35,13 @@
     "goToLink": "https://syon001.github.io/analytics-dashboard-assessment/"
   },
   {
+    "title": "Basic Banking System",
+    "type": "Personal",
+    "builtWith": ["HTML", "CSS", "JavaScript", "JSON", "PHP", "SQL"],
+    "linkText": "Basic-banking-system",
+    "goToLink": "https://github.com/syon001/Basic-banking-system-TSF"
+  },
+  {
     "title": "portfolio v1",
     "type": "Personal",
     "builtWith": ["ReactJS", "CSS", "JSON"],
