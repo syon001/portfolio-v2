@@ -5,7 +5,29 @@
     "builtWith": ["HTML", "CSS", "JavaScript", "JSON"],
     "linkText": "PortFolioV2.com",
     "goToLink": "https://portfolio-v2-iota-jade-26.vercel.app/"
-  },{
+  },
+  {
+    "title": "72Dragons media",
+    "type": "72Dragons",
+    "builtWith": ["HTML", "CSS", "JavaScript", "JSON", "Rest Api", "PHP", "Figma"],
+    "linkText": "https://72dragons.media/",
+    "goToLink": "https://72dragons.media/"
+  },
+  {
+    "title": "Heath72",
+    "type": "72Dragons",
+    "builtWith": ["HTML", "CSS", "JavaScript", "JSON", "Rest Api", "PHP", "Figma"],
+    "linkText": "https://health72.com/",
+    "goToLink": "https://health72.com/"
+  },
+  {
+    "title": "The Curators Conversations",
+    "type": "72Dragons",
+    "builtWith": ["HTML", "CSS", "JavaScript", "JSON", "Rest Api", "PHP", "Figma"],
+    "linkText": "https://thecuratorsconversations.com/",
+    "goToLink": "https://thecuratorsconversations.com/"
+  },
+  {
     "title": "Polution Dashboard",
     "type": "Personal",
     "builtWith": ["HTML", "CSS", "JavaScript", "JSON", "CSV", "Plotly.js"],
