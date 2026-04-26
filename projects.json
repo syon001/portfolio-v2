@@ -4,7 +4,13 @@
     "type": "Personal",
     "builtWith": ["HTML", "CSS", "JavaScript", "JSON"],
     "linkText": "PortFolioV2.com",
-    "goToLink": "https://githubfinder.com"
+    "goToLink": "https://portfolio-v2-iota-jade-26.vercel.app/"
+  },{
+    "title": "Polution Dashboard",
+    "type": "Personal",
+    "builtWith": ["HTML", "CSS", "JavaScript", "JSON", "CSV", "Plotly.js"],
+    "linkText": "PolutionDashboard.com",
+    "goToLink": "https://syon001.github.io/analytics-dashboard-assessment/"
   },
   {
     "title": "portfolio v1",
