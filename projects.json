@@ -1,4 +1,11 @@
 [
+   {
+    "title": "LMS tool",
+    "type": "Personal",
+    "builtWith": ["React.js", "CSS", "JavaScript", "JSON", "React Router DOM", "Vite"],
+    "linkText": "PortFolioV2.com",
+    "goToLink": "https://portfolio-v2-iota-jade-26.vercel.app/"
+  },
   {
     "title": "portfolio v2",
     "type": "Personal",
