@@ -5,6 +5,12 @@
     "builtWith": ["React.js", "CSS", "JavaScript", "JSON", "React Router DOM", "Vite"],
     "linkText": "LMS-tool",
     "goToLink": "https://lsm-frontend-drab.vercel.app/"
+  },{
+    "title": "E Commerce",
+    "type": "Personal",
+    "builtWith": ["React.js", "CSS", "JavaScript", "JSON", "React Router DOM", "Axios", "React‑Redux", "Font Awesome", "Vite"],
+    "linkText": "Ecommerce",
+    "goToLink": "https://react-ecommerce-iota-plum.vercel.app/"
   },
   {
     "title": "portfolio v2",
